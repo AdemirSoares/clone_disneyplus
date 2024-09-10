@@ -36,6 +36,16 @@
                 overflow: hidden;
                 padding: 0 24px;
                 transition: height, .5s ease;
+
+                p {
+                    padding: 8px;
+                }
+
+                li {
+                    padding: 8px;
+                    list-style: disc;
+                    margin-left: 34px;
+                }
             }
 
             &--is-open {
