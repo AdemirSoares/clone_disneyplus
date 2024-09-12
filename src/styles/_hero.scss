@@ -7,9 +7,9 @@
     text-align: center;
     background-size: cover;
 
-    @media (max-width: 768) {
+    @media (max-width: 768px) {
         background-image: url(../images/hero_celular.jpeg);
-        padding-top: calc(50px + 25px);
+        padding-top: calc(50vw + 25px);
         background-size: contain;
         background-repeat: no-repeat;
         margin-top: -55px;
@@ -51,6 +51,11 @@
             @media (max-width: 768px) {
                 display: block;
             }
+
+            a {
+                color: variaveis.$corTextoSecundario;
+                text-decoration: none
+            };
             
             &__combo {
                 width: calc(50% - 12px);
